@@ -1,0 +1,54 @@
+ @import url(https://fonts.googleapis.com/css?family=Playfair+Display|Slabo+27px&display=swap);
+ 
+ @import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+
+@import url("components/banner.css") ;
+
+@import url("components/card.css") ;
+
+
+
+
+body{
+	font-family: 'Playfair Display';
+	font-size: 20px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Sablo 27px';
+	margin: 0px;
+	font-weight: bold;
+	padding-top: 20px;
+
+}
+
+h1 {font-size: 50px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	 }
+
+.list-inline li{
+	display: inline-block;
+	padding: 10px;
+	font-size: 50px;
+
+
+}
+
+.list-inline i: hover {
+	color: yellow;
+
+}
